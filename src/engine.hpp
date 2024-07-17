@@ -2,6 +2,7 @@
 
 #include "engine_base.hpp"
 #include <atomic>
+// #define pm std::pair<int,std::vector<U16>>
 
 class Engine : public AbstractEngine {
 
@@ -11,5 +12,4 @@ class Engine : public AbstractEngine {
     
     public:
     void find_best_move(const Board& b) override;
-
 };
